@@ -1,3 +1,9 @@
+/*
+Longest Subarray with Given Sum (Positive numbers)
+Problem: Find length of longest subarray with given sum K.
+Approach: Carry forward sliding window sum.
+*/
+
 #include <vector>
 #include <algorithm>
 using namespace std;

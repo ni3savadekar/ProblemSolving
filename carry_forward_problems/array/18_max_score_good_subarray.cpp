@@ -1,3 +1,9 @@
+/*
+18. Maximum Score of Good Subarray
+Problem: Given an index, find max product of subarray size * min value.
+Approach: Carry bounds with monotonic stack logic.
+*/
+
 #include <vector>
 #include <algorithm>
 using namespace std;

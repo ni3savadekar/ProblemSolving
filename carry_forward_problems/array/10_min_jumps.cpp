@@ -1,3 +1,9 @@
+/*
+10. Minimum Jumps to Reach End (Greedy Carry)
+Problem: Minimum number of jumps to reach end.
+Approach: Carry forward max reach.
+*/
+
 #include <vector>
 #include <algorithm>
 using namespace std;

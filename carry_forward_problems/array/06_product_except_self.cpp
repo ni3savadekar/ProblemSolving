@@ -1,3 +1,9 @@
+/*
+6. Product of Array Except Self
+Problem: Return array where each element is the product of all elements except itself.
+Approach: Prefix product (carry forward), then postfix pass.
+*/
+
 #include <vector>
 using namespace std;
 vector<int> productExceptSelf(vector<int>& nums) {

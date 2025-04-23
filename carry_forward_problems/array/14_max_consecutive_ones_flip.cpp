@@ -1,3 +1,9 @@
+/*
+14. Max Consecutive Ones (with at most one zero flipped)
+Problem: Maximize consecutive 1s by flipping at most one 0.
+Approach: Carry zero count in sliding window.
+*/
+
 #include <vector>
 using namespace std;
 int findMaxConsecutiveOnes(vector<int>& nums) {
