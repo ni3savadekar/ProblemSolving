@@ -1,3 +1,9 @@
+/*
+13. Subarray Sum Equals K (with negatives)
+Problem: Count subarrays with exact sum K.
+Approach: Carry prefix sum with hashmap for frequency.
+*/
+
 #include <vector>
 #include <unordered_map>
 using namespace std;

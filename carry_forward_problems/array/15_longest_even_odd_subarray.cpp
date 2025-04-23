@@ -1,3 +1,9 @@
+/*
+15. Longest Even-Odd Subarray
+Problem: Find longest subarray where elements alternate between even and odd.
+Approach: Carry previous parity state.
+*/
+
 #include <vector>
 using namespace std;
 int longestEvenOddSubarray(vector<int>& arr) {

@@ -1,3 +1,8 @@
+/*
+3. Prefix Sum Array
+Problem: Find sum of elements between indices L and R.
+Approach: Carry forward the sum.
+*/
 #include <vector>
 using namespace std;
 vector<int> buildPrefixSum(vector<int>& nums) {

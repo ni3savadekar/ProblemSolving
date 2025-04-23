@@ -1,3 +1,11 @@
+/*
+
+8. Balanced Parentheses
+Problem: Check if string has balanced parentheses.
+Approach: Carry forward a counter.
+
+*/
+
 #include <string>
 using namespace std;
 bool isValid(string s) {

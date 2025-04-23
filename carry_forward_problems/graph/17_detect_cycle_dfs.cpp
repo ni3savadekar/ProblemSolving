@@ -1,3 +1,9 @@
+/*
+17. Detect Cycle in Graph (DFS with path tracking)
+Problem: Detect cycle using DFS and visited + recursion stack.
+Approach: Carry state forward in recursion stack.
+*/
+
 #include <vector>
 using namespace std;
 bool dfs(int node, vector<vector<int>>& graph, vector<bool>& visited, vector<bool>& recStack) {

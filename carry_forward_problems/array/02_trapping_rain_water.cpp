@@ -1,3 +1,11 @@
+/*
+ 2. Trapping Rain Water
+Problem: Given elevation map, calculate how much water can be trapped after raining.
+Approach: Carry max left/right heights as you move.
+
+*/
+
+
 #include <vector>
 #include <algorithm>
 using namespace std;

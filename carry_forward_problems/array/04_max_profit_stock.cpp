@@ -1,3 +1,9 @@
+/*
+4. Stock Buy and Sell for Max Profit
+Problem: Maximize profit by buying and selling one stock.
+Approach: Carry the min price so far.
+*/
+
 #include <vector>
 #include <algorithm>
 using namespace std;

@@ -1,3 +1,9 @@
+/*
+12. Subarrays with Sum Divisible by K
+Problem: Count subarrays where the sum is divisible by K.
+Approach: Carry prefix sums and use mod + hashmap.
+*/
+
 #include <vector>
 #include <unordered_map>
 using namespace std;

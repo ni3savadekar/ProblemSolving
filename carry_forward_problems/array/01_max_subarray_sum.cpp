@@ -1,3 +1,9 @@
+/*
+1. Maximum Subarray Sum (Kadane’s Algorithm)
+Problem: Find the contiguous subarray with the largest sum.
+Approach: Carry forward the current sum and reset if it goes negative.
+*/
+
 #include <vector>
 #include <algorithm>
 using namespace std;
